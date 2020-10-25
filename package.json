@@ -5,20 +5,30 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@react-three/drei": "^2.2.1",
+    "drei": "^1.5.7",
+    "framer-motion": "^2.9.4",
     "gatsby": "^2.24.79",
     "gatsby-image": "^2.4.21",
     "gatsby-plugin-manifest": "^2.4.34",
     "gatsby-plugin-offline": "^3.2.33",
     "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sass": "^2.3.21",
     "gatsby-plugin-sharp": "^2.6.42",
     "gatsby-source-filesystem": "^2.3.34",
     "gatsby-transformer-sharp": "^2.5.17",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-particles-js": "^3.4.0",
+    "react-three": "^0.9.7",
+    "react-three-fiber": "^5.1.4",
+    "three": "^0.121.1"
   },
   "devDependencies": {
+    "gatsby-plugin-root-import": "^2.0.5",
     "prettier": "2.1.2"
   },
   "keywords": [

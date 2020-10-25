@@ -34,22 +34,22 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={`${defaultTitle}`}
       meta={[
         {
-          name: `description`,
+          name: `generic cringe portfolio site`,
           content: metaDescription,
         },
         {
-          property: `og:title`,
+          property: `og:jumang potaru`,
           content: title,
         },
         {
-          property: `og:description`,
+          property: `og:generic cringe portfolio site`,
           content: metaDescription,
         },
         {
-          property: `og:type`,
+          property: `og:portfolio`,
           content: `website`,
         },
         {

@@ -1,0 +1,23 @@
+$black: #2a2a24;
+
+header {
+  box-sizing: border-box;
+  position: absolute;
+  height: 108px;
+  width: 100%;
+  padding: 12px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $black;
+
+
+  .logo,
+  .episode {
+    span {
+      font-size: 1rem;
+      font-weight: 200;
+      letter-spacing: 0.04rem;
+    }
+  }
+}
