@@ -1,8 +1,8 @@
 $black: #2a2a24;
 
-header {
+.headerRightLeft {
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   height: 108px;
   width: 100%;
   padding: 12px 48px;

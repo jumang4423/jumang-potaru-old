@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
+import Header from "@/layouts/Header"
+import MainArticles from "@/layouts/MainArticles"
+import Notification from "@/components/Notification"
+import RotateJumang from "@/components/RotateJumang"
+import Forest from "@/components/Forest"
 import "@/styles/layout/MainApp.scss";
-
-const Header = React.lazy(() => import('@/layouts/Header'));
-const MainArticles = React.lazy(() => import('@/layouts/MainArticles'));
-const Notification = React.lazy(() => import('@/components/Notification'));
-const RotateJumang = React.lazy(() => import('@/components/RotateJumang'));
-const Forest = React.lazy(() => import('@/components/Forest'));
 
 //when the browser webGL is disabled, normally all components r hidden somehow
 //this function for escaping the problem
@@ -25,14 +24,14 @@ function isWebGLAvailable() {
 export default function Apps() {
     const [Frst, useFrst] = useState(true);
     return (
-        <>
+        <div>
             <Header />
-                {Frst && <Forest />}
-                { isWebGLAvailable() ? <RotateJumang /> : <p id="webglError"></p>}
+            {Frst && <Forest />}
+            { isWebGLAvailable() ? <RotateJumang /> : <p id="webglError"></p>}
             <Notification />
             <MainArticles
                 useFrst={useFrst}
                 Frst={Frst} />
-        </>
+        </div>
     );
 };

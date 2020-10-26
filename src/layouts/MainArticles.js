@@ -1,9 +1,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from "framer-motion";
 import "@/styles/layout/MainArticles.scss";
-
-const MainArticlesButton = React.lazy(() => import('@/components/MainArticlesButton'));
-const ForestButton = React.lazy(() => import('@/components/ForestButton'));
+import MainArticlesButton from "@/components/MainArticlesButton"
+import ForestButton from "@/components/ForestButton"
 
 export default function MainArticles(props) {
     return (

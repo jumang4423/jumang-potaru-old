@@ -5,7 +5,7 @@ import "@/styles/layout/Header.scss";
 //draw header {title, version}
 const Header = () => {
   return (
-    <header>
+    <header className='headerRightLeft'>
       {/* left side title */}
       <div className='logo'>
         <motion.span
@@ -14,7 +14,7 @@ const Header = () => {
           animate={
             { opacity: 1, scale: 1 }}>
           JUMANG POTARU ☯ ジュマンポータル
-          </motion.span>
+        </motion.span>
       </div>
       {/* right side version */}
       <div className='episode'>
@@ -24,7 +24,7 @@ const Header = () => {
           animate={
             { opacity: 1, scale: 1, background: '#EEd3d4c0' }}>
           v0.02
-          </motion.span>
+        </motion.span>
       </div>
     </header>
   );

@@ -20,7 +20,7 @@ export default function Forest(){
             "value": 2,
             "density": {
               "enable": true,
-                "value_area": 200
+                "value_area": 150
                       }
         },
         "line_linked": {
@@ -37,13 +37,13 @@ export default function Forest(){
             "image": [
               {
                       "src": image01,
-                      "height": 10,
-                      "width": 10
+                      "height": 100,
+                      "width": 100
                   },
                   {
                       "src": image02,
-                      "height": 10,
-                      "width": 10
+                      "height": 100,
+                      "width": 100
                   }
               ]
           },
