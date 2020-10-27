@@ -3,7 +3,7 @@ $black: #2a2a24;
 html,
 body {
   background: #f0efe5a1;
-  //overflow: hidden;
+  overflow: hidden;
   font-family: "News Cycle", sans-serif;
   margin: 0;
   padding: 0;
@@ -20,45 +20,4 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-.ntf {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  display: flex;
-  margin: 12px;
-  flex-direction: column;
-  list-style: none;
-  justify-content: flex-end;
-}
-
-iframe {
-  width: 350px;
-  height: 175px;
-  border-radius: 16px;
-}
-
-.nortMessage {
-  width: 350px;
-  height: 40px;
-  border-radius: 16px;
-  background: #d89cb0;
-  margin: 10px;
-  font-size: 23px;
-  font-family: monospace;
-  text-align: center;
-  position: relative;
-}
-
-.battenNotif {
-  text-align: center;
-  position: center;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  display: inline-block;
-  vertical-align: center;
-  padding: 12px;
 }

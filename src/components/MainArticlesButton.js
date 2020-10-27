@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import "@/styles/layout/MainArticles.scss";
 
 //button components that moves really fluent
 export default function MainArticlesButton(props) {

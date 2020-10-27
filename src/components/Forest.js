@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Particles from 'react-particles-js';
-import "@/styles/component/Forest.scss";
+import "@/styles/component/Forest.css";
 
 const image01 = require("@/images/bk01.png");
 const image02 = require("@/images/bk02.png");

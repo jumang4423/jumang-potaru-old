@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "homepage": ".",
+  "name": "jumang-potaru",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "jumang potaru, a jumang portfolio site using react.js",
+  "version": "0.2.0",
+  "author": "jumang",
   "dependencies": {
     "drei": "^1.5.7",
     "framer-motion": "^2.9.4",

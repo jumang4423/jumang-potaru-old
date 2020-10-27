@@ -23,7 +23,7 @@ const Header = () => {
             { opacity: 0, scale: 0 }}
           animate={
             { opacity: 1, scale: 1, background: '#EEd3d4c0' }}>
-          v0.02
+          v0.2
         </motion.span>
       </div>
     </header>

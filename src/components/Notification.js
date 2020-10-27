@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import "@/styles/component/Notification.scss";
+import "@/styles/component/Notification.css";
 
 const Notification = () => {
     //notification flag

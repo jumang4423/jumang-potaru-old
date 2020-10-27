@@ -2,11 +2,11 @@
 
 #  jumang potaru
 - deployed on [here](https://jumang-potaru.dev)
-- this is a generic gateway website using react.js, also created and deployed using a useful web-development tool gatsby
+- this is a generic gateway website using react.js, also created and deployed using a useful web-development tool gatsby.
 
 # how to install locally
 ## 1. what u need to install
-- since this project were created using 'create react app' make sure u gotta install enough dependancies to install.
+- since this project were created using 'gatsby' make sure u gotta install enough dependancies to install.
 
 - make sure u installed <nvm, gatsby-cli> command first
 
