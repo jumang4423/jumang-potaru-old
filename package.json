@@ -1,5 +1,4 @@
 {
-  "homepage": ".",
   "name": "jumang-potaru",
   "private": true,
   "description": "jumang potaru, a jumang portfolio site using react.js",
@@ -39,6 +38,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

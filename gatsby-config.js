@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-
+  pathPrefix: "/jumang-potaru",
   siteMetadata: {
     title: `jumang potaru`,
     description: `jumang potaru`,
