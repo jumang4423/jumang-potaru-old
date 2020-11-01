@@ -5,8 +5,8 @@ import MainApp from "@/layouts/MainApp"
 //import Image from "../components/image"
 
 export default () => (
-    <Layout title="jumang-potaru">
-      <SEO />
+    <Layout>
+      <SEO title="jumang potaru"/>
       <MainApp />
     </Layout>
 );

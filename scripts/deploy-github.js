@@ -4,7 +4,7 @@ const ghpages = require('gh-pages')
 ghpages.publish(
   'public',
   {
-    branch: 'main',
+    branch: 'gh-pages',
     repo: 'https://github.com/jumang4423/jumang-potaru.git',
   },
   () => {
