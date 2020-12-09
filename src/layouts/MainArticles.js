@@ -6,7 +6,7 @@ import "@/styles/layout/MainArticles.css";
 
 export default function MainArticles(props) {
     return (
-    <div>
+    <div className="menu">
         {/* the kewl line using hr */}
         <motion.hr 
             key={7}
@@ -20,21 +20,25 @@ export default function MainArticles(props) {
 
         <AnimatePresence initial={true} >
             <MainArticlesButton
+            key={0}
             id={4}
             name='soundcloud'
             href='https://soundcloud.com/jumanjixxx'/>
 
             <MainArticlesButton
+            key={1}
             id={5}
             name='github'
             href='https://github.com/jumang4423'/>
 
             <MainArticlesButton
+            key={2}
             id={6}
             name='twitter'
             href='https://twitter.com/jumang4423'/>
 
             <ForestButton
+            key={3}
             id={7}
             name='particles'
             useFrst={props.useFrst}

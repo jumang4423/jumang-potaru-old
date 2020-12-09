@@ -29,7 +29,10 @@ return(
             backgroundColor: 'rgba(230, 230, 200, 0.6)'
         }}
         onClick={
-        () =>  window.location = props.href}>
+        () => {
+            const url = props.href
+            window.open(url, '_blank')
+            }}>
         {props.name}
         </motion.div>
     );
