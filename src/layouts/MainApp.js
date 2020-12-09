@@ -28,7 +28,9 @@ export default function Apps() {
             <Header />
             {Frst && <Forest />}
             { isWebGLAvailable() ? <RotateJumang /> : <p id="webglError"></p>}
-            <Notification />
+            <div className="NotificationWrapper">
+                <Notification />
+            </div>
             <MainArticles
                 useFrst={useFrst}
                 Frst={Frst} />
