@@ -23,6 +23,7 @@ function isWebGLAvailable() {
 //basically this <Apps /> for only jsx components
 export default function Apps() {
     const [Frst, useFrst] = useState(true);
+
     return (
         <div>
             <Header />

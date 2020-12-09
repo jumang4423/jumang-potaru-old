@@ -8,6 +8,14 @@ module.exports = {
     author: `jumang`,
   },
   plugins: [
+    {
+      resolve:`gatsby-plugin-typescript`,
+      options: {
+        isTSX: true,
+        jsxPragma: 'React',
+        allExtensions: true,
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {

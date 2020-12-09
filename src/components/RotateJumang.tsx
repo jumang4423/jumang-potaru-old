@@ -5,10 +5,16 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 import { softShadows } from "drei";
 import "@/styles/component/RotateJumang.scss";
 
-softShadows();
+softShadows( {
+  frustrum: null,
+  size: null,
+  near: null,
+  samples: null,
+  rings: null
+});
 
 const Jumang3D = () => {
-  const [model, setModel] = useState()
+  const [model, setModel] = useState(null)
   const [radRotate, setradRotate] = useState(0.0)
 
   useEffect(() => {
