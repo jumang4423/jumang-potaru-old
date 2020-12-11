@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from "framer-motion";
 import MainArticlesButton from "@/components/MainArticlesButton"
 import ForestButton from "@/components/ForestButton"
-import "@/styles/layout/MainArticles.css";
+import "@/styles/layout/MainArticles.scss";
 
 export default function MainArticles(props) {
     return (

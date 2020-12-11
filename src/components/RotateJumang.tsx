@@ -2,16 +2,16 @@ import React, { useEffect, useState } from "react";
 import * as THREE from "three"
 import { Canvas, useFrame } from "react-three-fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
-import { softShadows } from "drei";
+// import { softShadows } from "drei";
 import "@/styles/component/RotateJumang.scss";
 
-softShadows( {
-  frustrum: null,
-  size: null,
-  near: null,
-  samples: null,
-  rings: null
-});
+// softShadows( {
+//   frustrum: 100,
+//   size: 100,
+//   near: 100,
+//   samples: 100,
+//   rings: 100
+// });
 
 const Jumang3D = () => {
   const [model, setModel] = useState(null)
@@ -42,7 +42,7 @@ export default () => {
         <ambientLight intensity={0.5} />
         <directionalLight
           castShadow
-          position={[0, 100, 0]}
+          position={[0, 100, 100]}
           intensity={0.4}
           shadow-mapSize-width={1027}
           shadow-mapSize-height={720}

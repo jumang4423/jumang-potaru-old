@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import 'lazysizes'
-import "@/styles/component/Notification.css";
+import "@/styles/component/Notification.scss";
 
 const Notification = () => {
     //notification flag
